@@ -1,117 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Ida Zhao's Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com/">
-    <link rel="http://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ida Zhao | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <!----Main Page section-->
-    <div class="hero">
-        <nav>
-            <h2 class="logo">Ida Zhao's <span>Website</span></h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">My Playlist</a></li>
-                <li><a href="#">Contact Me</a></li>
+    <header class="site-header">
+        <nav class="nav">
+            <a class="logo" href="index.html" aria-label="Ida Zhao home">Ida Zhao</a>
+            <ul class="nav-links" aria-label="Primary navigation">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="travels.html">Travels</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
-            <a href="#" class="btn">Subscribe</a>
+            <a class="nav-cta" href="Ida%20Zhao%20Resume%20Spring%202026.pdf" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+                Resume
+            </a>
         </nav>
+    </header>
 
-        <div class="content">
-            <h4>Hello, my name is</h4>
-            <h1>Ida <span>Zhao</span></h1>
-            <h3>I'm a 2A CS student at UWaterloo.</h3>
-            <div class="newsletter">
-                <form>
-                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
-                    <input type="submit" name="submit" value="Let's Start">
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <!----About section-->
-    <section class="about">
-        <div class="main">
-            <img src="6fefd2fc39c12ba22a23d941b90dab95.jpg">
-            <div class="about-text">
-                <h2>About Me</h2>
-                <h5>2A CS student</h5>
-                <p>I'm currently a 2A CS student at University of Waterloo. I'm passionate about CS, photography and video editing. I am willing to learn new skills and take up any challenge.</p>
-                <button type="button">Let's Talk</button>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!----skills section-->
-    <div class="skills">
-        <div class="title">
-            <h2>My Skills</h2>
-        </div>
-
-        <div class="box">
-            <div class="card">
-                <i class="fa-solid fa-computer"></i>
-                <h5>CS</h5>
-                <div class="pra">
-                    <p>CS is definitely the future.</p>
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
+    <main>
+        <section class="hero home-hero">
+            <div class="hero-media" aria-hidden="true"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="eyebrow">Software engineer / traveler / music listener</p>
+                <h1>Ida Zhao</h1>
+                <p class="hero-copy">
+                    I build reliable backend and data systems, collect little moments from places I visit,
+                    and keep playlists for the songs that make a season feel specific.
+                </p>
+                <div class="hero-actions">
+                    <a class="button primary" href="work.html">
+                        <i class="fa-solid fa-code" aria-hidden="true"></i>
+                        Professional work
+                    </a>
+                    <a class="button secondary" href="travels.html">
+                        <i class="fa-solid fa-camera-retro" aria-hidden="true"></i>
+                        Travel notes
+                    </a>
                 </div>
             </div>
-            <div class="card">
-                <i class="fa-solid fa-camera"></i>
-                <h5>Photography</h5>
-                <div class="pra">
-                    <p>Every moment in life is precious and needs to be captured.</p>
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
+        </section>
+
+        <section class="section">
+            <div class="section-inner split-intro">
+                <div>
+                    <p class="section-kicker">A little map</p>
+                    <h2>Professional enough for recruiters, personal enough to feel like mine.</h2>
+                </div>
+                <p>
+                    This site has space for the engineering side of my life and the quieter things around it:
+                    photos from trips, songs I have been enjoying recently, and snapshots of what I am curious about.
+                </p>
+            </div>
+        </section>
+
+        <section class="section soft-section">
+            <div class="section-inner page-grid">
+                <a class="feature-card image-card" href="work.html">
+                    <span class="card-icon"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i></span>
+                    <span class="project-tag">Work</span>
+                    <h3>Engineering, data, and projects</h3>
+                    <p>Experience from BitGo, Ford, and Wave Mena, plus selected technical projects.</p>
+                </a>
+                <a class="feature-card image-card" href="travels.html">
+                    <span class="card-icon blue"><i class="fa-solid fa-route" aria-hidden="true"></i></span>
+                    <span class="project-tag">Travels</span>
+                    <h3>Photos from places I have been</h3>
+                    <p>A gallery-style space for trip photos, captions, and small notes.</p>
+                </a>
+                <a class="feature-card image-card" href="music.html">
+                    <span class="card-icon rose"><i class="fa-solid fa-music" aria-hidden="true"></i></span>
+                    <span class="project-tag">Music</span>
+                    <h3>Recently enjoyed playlists</h3>
+                    <p>Seasonal playlists, favorite tracks, and listening moods I want to remember.</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-inner highlight-panel">
+                <div>
+                    <p class="section-kicker">Currently</p>
+                    <h2>Building useful systems and saving small beautiful details.</h2>
+                </div>
+                <div class="mini-list">
+                    <p><strong>Studying:</strong> Computer Science Co-op at the University of Waterloo.</p>
+                    <p><strong>Working with:</strong> Python, TypeScript, SQL, Snowflake, AWS, GCP, and data pipelines.</p>
+                    <p><strong>Enjoying:</strong> photography, traveling, playlists, and editing memories into something shareable.</p>
                 </div>
             </div>
-            <div class="card">
-                <i class="fa-solid fa-video"></i>
-                <h5>Video Editing</h5>
-                <div class="pra">
-                    <p>Editing video is creating an art work.</p>
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+        </section>
+    </main>
 
-    <!--Contact Me-->
-    <div class="contact-me">
-        <p>I'm currently looking for a job related to CS.</p>
-        <a class="button-two" href="#">Hire Me</a>
-    </div>
-
-    <!--footer section-->
-    <footer>
-        <p>Ida Zhao</p>
-        <p>For more information about me or any job related communication - please click on the link below to connect with me:</p>
-        <div class="social">
-            <a href="mailto: i9zhao@uwaterloo.ca"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://www.linkedin.com/in/ida-zhao"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/ida.di.z/?hl=en"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.discordapp.com/users/Ida#1928"><i class="fa-brands fa-discord"></i></i></a>
-            <a href="https://u.wechat.com/EB2fIcxksJJBtRwVh3fQQ9E"><i class="fa-brands fa-weixin"></i></a>
-            <a href="https://open.spotify.com/user/ddddx2020?si=cebc742dc9614f0c"><i class="fa-brands fa-spotify"></i></i></a>
-        </div>
-        <p class="end">CopyRight By Ida Zhao</p>
+    <footer class="footer">
+        <p>Copyright &copy; 2026 Ida Zhao.</p>
     </footer>
 </body>
-
 </html>

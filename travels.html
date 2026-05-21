@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ida Zhao | Travels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <a class="logo" href="index.html" aria-label="Ida Zhao home">Ida Zhao</a>
+            <ul class="nav-links" aria-label="Primary navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a class="active" href="travels.html">Travels</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <a class="nav-cta" href="Ida%20Zhao%20Resume%20Spring%202026.pdf" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+                Resume
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero travel-hero">
+            <div class="section-inner page-hero-grid">
+                <div>
+                    <p class="eyebrow">Travel journal</p>
+                    <h1>Mexico in January, Seattle in May.</h1>
+                </div>
+                <p>
+                    A small photo journal for trips, city walks, food, skylines, water, and the kind of light that
+                    makes a place stay in my head after I leave.
+                </p>
+            </div>
+        </section>
+
+        <section class="travel-filter-section">
+            <div class="section-inner album-controls" aria-label="Travel album filters">
+                <button class="filter-button active" type="button" data-filter="all">All photos</button>
+                <button class="filter-button" type="button" data-filter="mexico">Mexico</button>
+                <button class="filter-button" type="button" data-filter="seattle">Seattle</button>
+            </div>
+        </section>
+
+        <section class="section" data-album-section="mexico">
+            <div class="section-inner travel-album">
+                <div class="album-heading">
+                    <div>
+                        <p class="section-kicker">Mexico / January 2026</p>
+                        <h2>Warm nights, ruins, ocean, and city streets.</h2>
+                    </div>
+                    <p>
+                        A January album with architecture, water, food, a cenote, and Chichen Itza.
+                    </p>
+                </div>
+                <div class="travel-grid" id="travel-gallery">
+                    <article class="travel-card large" data-album="mexico">
+                        <img src="mexico/mexico-2026-01-chichen-itza.jpg" alt="Chichen Itza pyramid in Mexico">
+                        <div>
+                            <span class="project-tag">Mexico / Jan 2026</span>
+                            <h3>Chichen Itza</h3>
+                            <p>Stone steps, open sky, and the scale of history in one frame.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="mexico">
+                        <img src="mexico/mexico-2026-01-cenote.jpg" alt="Cenote with water and rock walls in Mexico">
+                        <div>
+                            <span class="project-tag">Mexico / Jan 2026</span>
+                            <h3>Cenote light</h3>
+                            <p>Cool water, hanging roots, and a quiet circle of blue.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="mexico">
+                        <img src="mexico/mexico-2026-01-caribbean-water.jpg" alt="Blue Caribbean water in Mexico">
+                        <div>
+                            <span class="project-tag">Mexico / Jan 2026</span>
+                            <h3>Caribbean water</h3>
+                            <p>Clear blues and soft clouds from a beach day.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="mexico">
+                        <img src="mexico/mexico-2026-01-ocean-sunset.jpg" alt="Ocean sunset in Mexico">
+                        <div>
+                            <span class="project-tag">Mexico / Jan 2026</span>
+                            <h3>Ocean sunset</h3>
+                            <p>Gold on the water at the edge of the day.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="mexico">
+                        <img src="mexico/mexico-2026-01-seafood-dinner.jpg" alt="Seafood dinner table in Mexico">
+                        <div>
+                            <span class="project-tag">Mexico / Jan 2026</span>
+                            <h3>Seafood dinner</h3>
+                            <p>A table full of color, texture, and travel-day appetite.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="mexico">
+                        <img src="mexico/mexico-2026-01-revolution-monument.jpg" alt="Monument to the Revolution in Mexico City">
+                        <div>
+                            <span class="project-tag">Mexico / Jan 2026</span>
+                            <h3>Revolution Monument</h3>
+                            <p>City scale, symmetry, and afternoon light.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="mexico">
+                        <img src="mexico/mexico-2026-01-palace-night.jpg" alt="Illuminated palace at night in Mexico">
+                        <div>
+                            <span class="project-tag">Mexico / Jan 2026</span>
+                            <h3>Palace at night</h3>
+                            <p>Architecture glowing against a dark sky.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="mexico">
+                        <img src="mexico/mexico-2026-01-historic-plaza.jpg" alt="Historic plaza and statue in Mexico">
+                        <div>
+                            <span class="project-tag">Mexico / Jan 2026</span>
+                            <h3>Historic plaza</h3>
+                            <p>A busy square, a statue, and bright midday blue.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="mexico">
+                        <img src="mexico/mexico-2026-01-city-street.jpg" alt="City street in Mexico">
+                        <div>
+                            <span class="project-tag">Mexico / Jan 2026</span>
+                            <h3>City street</h3>
+                            <p>Street corners and buildings passing by in the sun.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="mexico">
+                        <img src="mexico/mexico-2026-01-marina-yacht-club.jpg" alt="Marina yacht club sign in Mexico">
+                        <div>
+                            <span class="project-tag">Mexico / Jan 2026</span>
+                            <h3>Marina sign</h3>
+                            <p>A travel marker near boats, color, and open air.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="mexico">
+                        <img src="mexico/mexico-2026-01-city-countdown.jpg" alt="City countdown display in Mexico">
+                        <div>
+                            <span class="project-tag">Mexico / Jan 2026</span>
+                            <h3>City countdown</h3>
+                            <p>A vertical city moment with time stamped into the scene.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="mexico">
+                        <img src="mexico/mexico-2026-01-cathedral-evening.jpg" alt="Cathedral in Mexico during evening">
+                        <div>
+                            <span class="project-tag">Mexico / Jan 2026</span>
+                            <h3>Cathedral evening</h3>
+                            <p>Stone, palms, and the calm of a warm evening.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section soft-section" data-album-section="seattle">
+            <div class="section-inner travel-album">
+                <div class="album-heading">
+                    <div>
+                        <p class="section-kicker">Seattle / May 2026</p>
+                        <h2>Waterfront views, skyline nights, and glassy color.</h2>
+                    </div>
+                    <p>
+                        A May album from Seattle: sunny icons, city views, sunset water, and museum-like interiors.
+                    </p>
+                </div>
+                <div class="travel-grid">
+                    <article class="travel-card large" data-album="seattle">
+                        <img src="seattle/seattle-2026-05-great-wheel.jpg" alt="Seattle Great Wheel against a blue sky">
+                        <div>
+                            <span class="project-tag">Seattle / May 2026</span>
+                            <h3>Great Wheel</h3>
+                            <p>A bright waterfront landmark stretching into clear blue.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="seattle">
+                        <img src="seattle/seattle-2026-05-waterfront-sunset.jpg" alt="Seattle waterfront at sunset">
+                        <div>
+                            <span class="project-tag">Seattle / May 2026</span>
+                            <h3>Waterfront sunset</h3>
+                            <p>Warm sky, quiet water, and a perfect evening gradient.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="seattle">
+                        <img src="seattle/seattle-2026-05-night-skyline.jpg" alt="Seattle skyline at night">
+                        <div>
+                            <span class="project-tag">Seattle / May 2026</span>
+                            <h3>Night skyline</h3>
+                            <p>City lights threaded through a dark blue night.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="seattle">
+                        <img src="seattle/seattle-2026-05-space-needle.jpg" alt="Seattle Space Needle with flowers">
+                        <div>
+                            <span class="project-tag">Seattle / May 2026</span>
+                            <h3>Space Needle blooms</h3>
+                            <p>Flowers, blue sky, and the Space Needle framed from below.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="seattle">
+                        <img src="seattle/seattle-2026-05-glass-garden.jpg" alt="Colorful glass installation in Seattle">
+                        <div>
+                            <span class="project-tag">Seattle / May 2026</span>
+                            <h3>Glass garden</h3>
+                            <p>Colorful glass shapes reaching upward in soft indoor light.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="seattle">
+                        <img src="seattle/seattle-2026-05-lake-view.jpg" alt="Seattle lake view in evening light">
+                        <div>
+                            <span class="project-tag">Seattle / May 2026</span>
+                            <h3>Lake view</h3>
+                            <p>Still water and a calm city edge at golden hour.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="seattle">
+                        <img src="seattle/seattle-2026-05-lumen-field.jpg" alt="Lumen Field in Seattle">
+                        <div>
+                            <span class="project-tag">Seattle / May 2026</span>
+                            <h3>Lumen Field</h3>
+                            <p>Stadium shapes, clock tower, and a bright walk through the city.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="seattle">
+                        <img src="seattle/seattle-2026-05-library-interior.jpg" alt="Seattle library interior">
+                        <div>
+                            <span class="project-tag">Seattle / May 2026</span>
+                            <h3>Library interior</h3>
+                            <p>Lines, levels, and warm architectural texture indoors.</p>
+                        </div>
+                    </article>
+                    <article class="travel-card" data-album="seattle">
+                        <img src="seattle/seattle-2026-05-city-view.jpg" alt="Seattle city view from above">
+                        <div>
+                            <span class="project-tag">Seattle / May 2026</span>
+                            <h3>City view</h3>
+                            <p>A tilted glimpse of streets, water, and buildings from above.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="lightbox" id="travel-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Travel photo viewer">
+        <button class="lightbox-close" type="button" aria-label="Close photo viewer">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+        <button class="lightbox-nav lightbox-prev" type="button" aria-label="Previous photo">
+            <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <figure class="lightbox-content">
+            <img id="lightbox-image" src="" alt="">
+            <figcaption>
+                <span id="lightbox-kicker"></span>
+                <strong id="lightbox-title"></strong>
+                <span id="lightbox-caption"></span>
+                <span id="lightbox-count"></span>
+            </figcaption>
+        </figure>
+        <button class="lightbox-nav lightbox-next" type="button" aria-label="Next photo">
+            <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <footer class="footer">
+        <p>Copyright &copy; 2026 Ida Zhao.</p>
+    </footer>
+    <script src="travels.js"></script>
+</body>
+</html>
